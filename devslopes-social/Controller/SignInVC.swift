@@ -82,7 +82,7 @@ class SignInVC: UIViewController {
                         
                         if error != nil {
                             
-                            print("READ THIS: Unable to create account \(error) ")
+                            print("READ THIS: Unable to create account \(error!) ")
                             
                         } else {
                             
