@@ -19,6 +19,7 @@
 		972848F61F8C38570045C782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972848F41F8C38570045C782 /* Main.storyboard */; };
 		972848F81F8C38570045C782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972848F71F8C38570045C782 /* Assets.xcassets */; };
 		972848FB1F8C38570045C782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972848F91F8C38570045C782 /* LaunchScreen.storyboard */; };
+		97351CA21F9C011900CCDAB4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97351CA11F9C011900CCDAB4 /* CircleView.swift */; };
 		9775CE7B1F9997E20062B152 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9775CE7A1F9997E20062B152 /* FeedVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		972848F71F8C38570045C782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		972848FA1F8C38570045C782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		972848FC1F8C38570045C782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97351CA11F9C011900CCDAB4 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		97387ED11F8DCE3D008999E2 /* devslopes-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "devslopes-social.entitlements"; sourceTree = "<group>"; };
 		9775CE7A1F9997E20062B152 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		9B28C53B7378D39EBACA0C84 /* Pods_devslopes_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 				9709F4FB1F8C7E61004CDBFE /* RoundBtn.swift */,
 				9709F4FD1F8C80C5004CDBFE /* FancyField.swift */,
 				9709F5001F8C8217004CDBFE /* FancyBtn.swift */,
+				97351CA11F9C011900CCDAB4 /* CircleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97351CA21F9C011900CCDAB4 /* CircleView.swift in Sources */,
 				9709F4FE1F8C80C5004CDBFE /* FancyField.swift in Sources */,
 				972848F31F8C38570045C782 /* SignInVC.swift in Sources */,
 				9709F4FC1F8C7E61004CDBFE /* RoundBtn.swift in Sources */,
