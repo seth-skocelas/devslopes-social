@@ -14,6 +14,7 @@
 		9709F4FC1F8C7E61004CDBFE /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709F4FB1F8C7E61004CDBFE /* RoundBtn.swift */; };
 		9709F4FE1F8C80C5004CDBFE /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709F4FD1F8C80C5004CDBFE /* FancyField.swift */; };
 		9709F5011F8C8217004CDBFE /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9709F5001F8C8217004CDBFE /* FancyBtn.swift */; };
+		9725F82A1FAE8C4A00D94633 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9725F8291FAE8C4A00D94633 /* PostCell.swift */; };
 		972848F11F8C38570045C782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972848F01F8C38570045C782 /* AppDelegate.swift */; };
 		972848F31F8C38570045C782 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972848F21F8C38570045C782 /* SignInVC.swift */; };
 		972848F61F8C38570045C782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972848F41F8C38570045C782 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		9709F4FB1F8C7E61004CDBFE /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		9709F4FD1F8C80C5004CDBFE /* FancyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		9709F5001F8C8217004CDBFE /* FancyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		9725F8291FAE8C4A00D94633 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		972848ED1F8C38560045C782 /* devslopes-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devslopes-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		972848F01F8C38570045C782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		972848F21F8C38570045C782 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				9709F4FD1F8C80C5004CDBFE /* FancyField.swift */,
 				9709F5001F8C8217004CDBFE /* FancyBtn.swift */,
 				97351CA11F9C011900CCDAB4 /* CircleView.swift */,
+				9725F8291FAE8C4A00D94633 /* PostCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				9709F4F71F8C7B66004CDBFE /* FancyView.swift in Sources */,
 				9709F4FA1F8C7CF9004CDBFE /* Constants.swift in Sources */,
 				9709F5011F8C8217004CDBFE /* FancyBtn.swift in Sources */,
+				9725F82A1FAE8C4A00D94633 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
