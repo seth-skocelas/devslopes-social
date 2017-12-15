@@ -16,6 +16,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var captionField: FancyField!
     @IBOutlet weak var imageAdd: CircleView!
+
     
     var posts = [Post]()
     var imagePicker: UIImagePickerController!
@@ -34,6 +35,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
         
         DataService.ds.REF_POSTS.observe(.value, with: { (snapshot) in
             
+            self.posts = []
             if let snapshot = snapshot.children.allObjects as? [FIRDataSnapshot] {
                 for snap in snapshot {
                     print("SNAP: \(snap)")
@@ -47,6 +49,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
                 }
             }
             self.tableView.reloadData()
+            
         })
         
         // Do any additional setup after loading the view.
@@ -73,15 +76,15 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
             if let img = FeedVC.imageCache.object(forKey: post.imageUrl as NSString) {
                 
                 cell.configureCell(post: post, img: img)
-                return cell
+                
                 
             } else {
                 
                 cell.configureCell(post: post)
-                return cell
+                
                 
             }
-            
+            return cell
             
         } else {
             
